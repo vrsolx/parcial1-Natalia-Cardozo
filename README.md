@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>Servicios Digitales</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/parcial1/parcial_1-master/parcial_1-master/styles.css">
+
+
+
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <h1>Catálogo de Servicios Digitales</h1>
+
+
+            <div class="p-3 text-center">
+                <button id="btn-claro" class="btn btn-light border">☀️ Modo Claro</button>
+                <button id="btn-oscuro" class="btn btn-dark">🌙 Modo Oscuro</button>
+            </div>
+            
+        
+
+        <div class="row mt-4">
+
+            <div class="col-md-4">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5>Desarrollo Web</h5>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="webdesign.jpeg" width="200" height="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Solicita nuestro servicio de desarrollo web con nosotros, más rápido y seguro.</p>
+                              <button class="btn btn-primary" onclick="solicitarServicio1()">
+                                Solicitar Servicio
+                            </div>
+                          </div>
+
+        
+                        </button>
+
+                       
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <h5>Diseño UX/UI</h5>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="ui.jpeg" width="200" height="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Solicita nuestro servicio de diseño UX/UI con nosotros, más rápido y seguro.</p>
+                              <button class="btn btn-primary" onclick="solicitarServicio2()">
+                                Solicitar Servicio
+                            </div>
+                          </div>
+
+        
+                        </button>
+
+
+
+            <div class="col-md-4">
+
+                <div class="card">
+
+                    <div class="card-body">
+
+                        <h5>Marketing Digital</h5>
+                        <div class="card" style="width: 18rem;">
+                            <img src="marketingdigital.jpeg" width="200" height="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Solicita nuestro servicio de marketing digital con nosotros, más rápido y seguro.</p>
+                              <button class="btn btn-primary" onclick="solicitarServicio3()">
+                                Solicitar Servicio
+                            </div>
+                          </div>
+
+        
+                        </button>
+
+                        <h5>Campañas de marketing online</h5>
+                        <div class="card" style="width: 18rem;">
+                            <img src="digital.jpeg" width="200" height="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Solicita nuestras campañas de marketing digital con nosotros, más rápido y estetico.</p>
+                              <button class="btn btn-primary" onclick="solicitarServicio4()">
+                                Solicitar Servicio
+                            </div>
+                          </div>
+
+        
+                        </button>
+
+                        <h5>Desarrollo movil</h5>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="movil.jpeg" width="200" height="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Solicita nuestro servicio de desarrollo movil con nosotros, más rápido y seguro.</p>
+                              <button class="btn btn-primary" onclick="solicitarServicio5()">
+                                Solicitar Servicio
+                            </div>
+                          </div>
+
+        
+                        </button>
+
+
+                        <h5>Soporte tecnico</h5>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="soporte.jpeg" width="200" height="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Solicita nuestro servicio de soporte tecnico con nosotros, más rápido y seguro.</p>
+                              <button class="btn btn-primary" onclick="solicitarServicio6()">
+                                Solicitar Servicio
+                            </div>
+                          </div>
+
+        
+                        </button>
+
+
+                        <h5>SEO</h5>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="seo.webp" width="200" height="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Solicita nuestro servicio de SEO con nosotros, más rápido y seguro.</p>
+                              <button class="btn btn-primary" onclick="solicitarServicio7()">
+                                Solicitar Servicio
+                            </div>
+                          </div>
+
+        
+                        </button>
+
+
+                        <h5>Hosting</h5>
+
+                        <div class="card" style="width: 18rem;">
+                            <img src="hosting.jpeg" width="200" height="200" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <p class="card-text">Solicita nuestro servicio de hosting con nosotros, más rápido y seguro.</p>
+                              <button class="btn btn-primary" onclick="solicitarServicio8()">
+                                Solicitar Servicio
+                            </div>
+                          </div>
+
+        
+                        </button>
+
+
+                        
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <h3 class="mt-5">Registro de Cliente</h3>
+
+        <form id="formulario">
+
+            <input type="text" id="nombre" placeholder="Nombre" class="form-control mb-2">
+
+            <input type="text" id="correo" placeholder="Correo" class="form-control mb-2">
+
+            <input type="text" id="telefono" placeholder="Teléfono" class="form-control mb-2">
+
+            <button class="btn btn-success" onclick="registrar()">
+                Registrar
+            </button>
+
+        </form>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

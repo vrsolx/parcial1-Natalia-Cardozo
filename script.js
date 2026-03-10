@@ -1,6 +1,6 @@
 let contador
 
-function solicitarServicio() {
+function solicitarServicio1() {
 
     contador++
 
@@ -25,8 +25,19 @@ function registrar() {
 
 }
 
-document.getElementById("modoBtn").addEventListener("click", function() {
+Javascript 
+// 1. Seleccionamos los botones por su ID
+const botonClaro = document.getElementById('btn-claro');
+const botonOscuro = document.getElementById('btn-oscuro');
 
-    document.body.classList.toggle("dark")
+// 2. Función para activar el Modo Oscuro
+botonOscuro.addEventListener('click', () => {
+    // Agregamos la clase al body
+    document.body.classList.add('dark-mode');
+});
 
-})
+// 3. Función para volver al Modo Claro
+botonClaro.addEventListener('click', () => {
+    // Removemos la clase del body
+    document.body.classList.remove('dark-mode');
+});
